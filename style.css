@@ -129,11 +129,16 @@ button{
     .container{
         width: 50%;
     }
+    
+    .illustration_box img{
+        width: 100%;
+    }
 }
 
 @media(max-width: 414px){
     body{
     background: url(/images/pattern-background-mobile.svg);
+    background-attachment: fixed;
     background-color: var(--Paleblue);
     background-repeat: no-repeat;
     background-size:cover;
@@ -142,6 +147,10 @@ button{
 
     .container{
         width: 85%;
+    }
+
+    .illustration_box img{
+        width: 100%;
     }
 }
 
@@ -159,6 +168,10 @@ button{
     .container{
         width: 90%;
     }
+
+    .illustration_box img{
+        width: 100%;
+    }
 }
 @media(max-width: 390px){
 
@@ -173,5 +186,9 @@ button{
 
     .container{
         width: 90%;
+    }
+
+    .illustration_box img{
+        width: 100%;
     }
 }
