@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   
+--Paleblue: hsl(225, 100%, 94%);
+--Brightblue: hsl(245, 75%, 52%);
+--Verypaleblue: hsl(225, 100%, 98%);
+--Desaturatedblue: hsl(224, 23%, 55%);
+--Darkblue: hsl(223, 47%, 23%);
+}
+
+body{
+    background: url(/images/pattern-background-desktop.svg);
+    background-color: var(--Paleblue);
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: 'Red Hat Display', sans-serif;
+   
+
+    
+}
+
+
+.container{
+    width: 30%; 
+    height: 55%;
+    margin: 40px auto;  
+    border-radius: 25px;  
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Verypaleblue);
+    
+}
+
+.illustration_box img{
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.detail_sec{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+
+.order_summery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+   
+}
+h1{
+    color: var(--Darkblue);
+}
+.order_summery p{
+    text-align: center;
+    width: 280px;
+    font-size: 16px;
+    color: var(--Darkblue);
+    
+    
+}
+
+.plan{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+      
+}
+
+p{
+    color: var(--Darkblue);
+}
+h3{
+    color: var(--Darkblue);
+}
+
+a{
+    color: var(--Brightblue);
+}
+.button_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+}
+
+button{
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: var(--Brightblue);
+    color: var(--Verypaleblue);
+}
+
+.btn2{
+    color: var(--Desaturatedblue);
+    background-color: var(--Verypaleblue)
+}
+
+/* Media Query */
+
+@media(max-width: 1024px){
+    .container{
+        width: 50%;
+    }
+}
+
+@media(max-width: 414px){
+    .container{
+        width: 85%;
+    }
+}
+
+@media(max-width: 375px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 390px){
+    .container{
+        width: 90%;
+    }
+}
