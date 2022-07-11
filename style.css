@@ -125,7 +125,7 @@ button{
         background-repeat: no-repeat;
         background-size:cover;
         }
-        
+
     .container{
         width: 50%;
     }
@@ -137,6 +137,7 @@ button{
     background-color: var(--Paleblue);
     background-repeat: no-repeat;
     background-size:cover;
+    height: 200px;
     }
 
     .container{
@@ -151,6 +152,7 @@ button{
         background-color: var(--Paleblue);
         background-repeat: no-repeat;
         background-size:cover;
+        height: 200px;
         }
 
 
@@ -165,6 +167,7 @@ button{
         background-color: var(--Paleblue);
         background-repeat: no-repeat;
         background-size:cover;
+        height: 200px;
         }
 
 
