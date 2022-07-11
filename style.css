@@ -124,17 +124,40 @@ button{
 }
 
 @media(max-width: 414px){
+    body{
+    background: url(/images/pattern-background-mobile.svg);
+    background-color: var(--Paleblue);
+    background-repeat: no-repeat;
+    background-size:auto;
+    }
+
     .container{
         width: 85%;
     }
 }
 
 @media(max-width: 375px){
+
+    body{
+        background: url(/images/pattern-background-mobile.svg);
+        background-color: var(--Paleblue);
+        background-repeat: no-repeat;
+        background-size:auto;
+        }
+
     .container{
         width: 90%;
     }
 }
 @media(max-width: 390px){
+
+    body{
+        background: url(/images/pattern-background-mobile.svg);
+        background-color: var(--Paleblue);
+        background-repeat: no-repeat;
+        background-size:auto;
+        }
+        
     .container{
         width: 90%;
     }
