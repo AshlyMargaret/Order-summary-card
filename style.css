@@ -38,8 +38,6 @@ body{
 
 .illustration_box img{
     width: 100%;
-    max-width: 100%;
-    min-width: 100%;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
